@@ -1,0 +1,15 @@
+edc22dd Merge pull request #1 from kolbymckay22/feature-kolbymckay22
+b35ae2d add random.txt
+da2084c fixed conflict
+a7eb665 features branch yay
+9dcf99d yay
+94698ca Merge branch 'features'
+79f89e9 cool
+4ec9f4c added text to new features
+324bfcf add empty file
+60188cf ignore file added again
+20875d6 git ignore file
+efe2062 Readme file
+9f5a45a File 2 commit
+f7cf83e file 1 commit
+9e08aac create new files

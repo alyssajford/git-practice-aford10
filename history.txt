@@ -1,0 +1,102 @@
+    1  git --version
+    2  git status
+    3  git config --global user.name "Alyssa Ford"
+    4  git config --global user.email alyssa.j.ford@gmail.com
+    5  git config --global init.defaultBranch main
+    6  git config --list
+   12  mkdir git-practice
+   14  cd git-practice
+   16  git status
+   17  git init
+   20  mkdir git-practice-aford10
+   21  rm git-practice
+   23  rm git-practice-aford10
+   24  rm -r git-practice-aford10
+   27  mkdir git-practice-aford10
+   29  rm -r git-pracitce
+   30  rm -r git-practice
+   33  cd git-practice-aford10/
+   35  git init
+   39  rm -r .git
+   40  rm -r .git/
+   44  rm git-practice-aford10/
+   45  rm -r git-practice-aford10/
+   47  mkdir git-practice-aford10
+   64  rm -rf .git
+   66  cd git-practice-aford10/
+   67  git init
+   72  git status
+   73  git add file_1.txt
+   74  git add file_2.txt
+   75  git status
+   77  git create new files
+   78  git commit -m "create new files"
+   79  git status
+   80  git log
+   81  git log --oneline
+   88  cd git-practice-aford10/
+   92  git status
+   93  git add file_1.txt 
+   94  git status
+   95  git commit -m "file 1 commit"
+   96  git add file_2.txt 
+   97  git commit -m "File 2 commit"
+  101  git status
+  108  git add Readme.md 
+  109  git commit -m "Readme file"
+  110  touch .gitignore
+  111  git config --global core.editor "code --wait"
+  112  start .gitignore
+  113  git add .gitignore 
+  114  git commit -m "git ignore file"
+  116  git status
+  117  git status
+  118  git status
+  119  git add .gitignore 
+  120  git commit -m "ignore file added again"
+  121  git branch features
+  122  git switch features
+  124  git add new_features.txt 
+  125  git commit -m "add empty file"
+  126  git status
+  127  git add new_features.txt 
+  128  git commit -m "added text to new features"
+  129  git switch main
+  130  git status
+  131  git add file_1.txt 
+  132  git commit -m "cool"
+  133  git merge features
+  134  git log
+  135  cd BYU/Stat\ 386/git-practice-aford10/
+  137  git status
+  138  git add .
+  139  git commit -m "yay"
+  140  git switch features
+  142  git status
+  143  git add .
+  144  git commit -m "features branch yay"
+  145  git switch main
+  146  git merge features
+  147  git status
+  148  git add .
+  149  git commit -m "fixed conflict"
+  150  git branch -d features
+  151  git remote add origin git@github.com:alyssajford/git-practice-aford10.git
+  152  git push -u origin main
+  157  git add random.txt
+  158  git commit -m random.txt
+  159  git push origin feature-alyssajford
+  161  git clone git@github.com:chale15/Stat386.git
+  162  git clone git@github.com:alyssajford/Stat386.git
+  164  git add random.txt
+  167  git add random.txt
+  168  git commit -m random.txt
+  169  git branch feature-alyssajford
+  170  git switch feature-alyssajford 
+  172  git add random.txt
+  173  git commit -m random.txt
+  174  git push origin feature-alyssajford
+  175  cd BYU/Stat\ 386/git-practice-aford10/
+  176  git pull
+  177  git log --oneline > gitlog.txt
+  178  history | grep git > history.txt
